@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de alunos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align: center; color: yellow; -webkit-text-stroke: 1px  black;">Cadastro de adoradores de Diário De Um</h1> <h1 style="text-align: center; color: yellow; -webkit-text-stroke: 1px  black;">Banana 📖</h1>  
+
+    <form id="formulario">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" maxlength="15">
+
+        <label for="idade">Descreva sua opnião sobre o livro escolhido através da opção abaixo:</label>
+        <input type="text" id="idade" name="idade" maxlength="81" required>
+
+        <select name="curso" id="curso">
+            <option value="" disabled selected>Escolha o livro...</option>
+            <option value="1">Diário De Um Banana: Bola Fora</option>
+            <option value="2">Diário De Um Banana: Bons Tempos</option>
+            <option value="3">Diário De Um Banana: Rodrick é o Cara</option>
+            <option value="4">Diário De Um Banana: Casa Dos Horrores</option>
+            <option value="5">Diário De Um Banana: Frauda Xeia</option>
+        </select>
+
+        <label for="nota">Dê uma nota de 0-10 ao livro escolhido:</label>
+        <input type="number" id="nota" name="nota" max="10" min="0" required>
+
+       
+
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <div class="container-alunos">
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
