@@ -50,6 +50,67 @@ formulario.addEventListener('submit', function(event){
     if(cursoAluno === "5"){
         cardAluno.classList.add('opcao5')
     }
+
+    if(cursoAluno === "6"){
+        cardAluno.classList.add('opcao6')
+    }
+
+    if(cursoAluno === "7"){
+        cardAluno.classList.add('opcao7')
+    }
+
+
+    if(cursoAluno === "8"){
+        cardAluno.classList.add('opcao8')
+    }
+
+    if(cursoAluno === "9"){
+        cardAluno.classList.add('opcao9')
+    }
+
+    if(cursoAluno === "10"){
+        cardAluno.classList.add('opcao10')
+    }
+
+    if(cursoAluno === "11"){
+        cardAluno.classList.add('opcao11')
+    }
+
+    if(cursoAluno === "12"){
+        cardAluno.classList.add('opcao12')
+    }
+
+    if(cursoAluno === "13"){
+        cardAluno.classList.add('opcao13')
+    }
+
+    if(cursoAluno === "14"){
+        cardAluno.classList.add('opcao14')
+    }
+
+    if(cursoAluno === "15"){
+        cardAluno.classList.add('opcao15')
+    }
+
+    if(cursoAluno === "16"){
+        cardAluno.classList.add('opcao16')
+    }
+
+    if(cursoAluno === "17"){
+        cardAluno.classList.add('opcao17')
+    }
+
+    if(cursoAluno === "18"){
+        cardAluno.classList.add('opcao18')
+    }
+
+    if(cursoAluno === "19"){
+        cardAluno.classList.add('opcao19')
+    }
+
+    if(cursoAluno === "20"){
+        cardAluno.classList.add('opcao20')
+    }
     
 
     const nome = document.createElement('h2')
